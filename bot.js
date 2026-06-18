@@ -48,7 +48,7 @@ ws.on('message', async (data) => {
         console.log('Dihcord ping checker active');
     }
 
-    // Look for new messages
+    // Look for new messages also change §ping to anything u rlly want 
     if (op === 0 && t === 'MESSAGE_CREATE') {
         if (d.content === '§ping') {
             const channelId = d.channel_id;
