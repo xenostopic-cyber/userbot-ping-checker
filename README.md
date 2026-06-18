@@ -1,4 +1,4 @@
-# Cross-Platform Discord Ping Terminal Script (Might add this)
+# Cross-Platform Discord Ping Terminal Script (Might add this and this READMME.md made by AI so yea it's crystal clear)
 
 A lightweight, cross-platform Node.js script that runs directly from your terminal (Windows, macOS, or Linux). It connects directly to the Discord Gateway via WebSockets to listen for the `§ping` command, computes actual API latency, enforces an authorization safety check, and responds using a clean, ANSI-colored "fake embed" formatting block without revealing your external IP.
 
@@ -54,7 +54,7 @@ Open your `bot.js` file in a text editor and update the primary variables at the
 const YOUR_TOKEN = "YOUR_ACTUAL_TOKEN_HERE"; 
 
 // THE SPECIFIC USER ID ALLOWED TO RUN THE PING COMMAND
-const VIP_ID = "1514324250683641887";
+const ALLOWED_ID = "1514324250683641887";
 ```
 
 ### 🔑 How to Securely Extract Your Token
